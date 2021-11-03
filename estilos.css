@@ -1,0 +1,121 @@
+section{background-color: rgb(255, 255, 255);}
+
+h2{color:rgb(0, 0, 0)}
+
+.col-md-4 {padding: 0;
+    margin:0;
+    }
+
+.col-md-3 { width: 40%;}
+
+.letra-grande { font-size: 2em; 
+    font-weight: 800;
+color:rgb(75, 192, 196);}
+.letra-grande:hover{color:rgb(75, 192, 196)}
+
+.botonera {margin:0;
+        padding: 0;}
+
+.botonera li{
+	display: inline-block;
+	font-weight: 700;
+    padding: 0 3px;
+}
+
+.img-logo{width:auto;
+         height:50px}
+
+.row {margin:0;
+    text-align: center;
+    align-items: center;
+}
+.botonera li a{
+	color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-decoration: none;
+}
+.botonera li a:hover{
+	color: rgb(158, 158, 158);
+	text-decoration: none;
+}
+.contacto {margin:0;
+            padding:0;}
+
+.final{background-color: rgb(255, 255, 255);}
+
+.logo-contacto { height: 75px; width:auto; margin:5px;}
+
+.contacto li {list-style:none;
+display: inline-block;
+margin:0; padding:0}
+
+.navbar-brand {padding: 0;
+    margin:0; }
+
+header{
+	    height: fit-content;
+        background-color: rgb(255, 255, 255);
+        position: sticky;
+        z-index: 1;
+        top: 0;
+
+    }
+
+.principal{
+	    text-align: center;
+	}
+
+.titulo {font-size: 30px;}
+.categoria {
+    padding-top:1rem;
+    color:rgb(75, 192, 196);}
+
+.blackquote-footer { word-wrap: break-word;
+    margin-bottom: 1rem;
+    color:rgb(68, 68, 68)
+               }
+
+figure { margin-bottom: 1rem}
+
+figure h2 {margin:0; padding:0}
+
+.vertical-centered-text {
+  -ms-display: flex;
+  display: flex;
+  /* alineacion vertical */
+  align-items: center;
+   /* alineacion horizontal */
+  justify-content: center;
+}
+
+.imagen-postre { height: 200px; width: auto;}
+
+
+.imagen {width: 100%; height: auto;}
+
+.sabores, .postres {font-size: 60px; color: rgb(76, 228, 101)}
+
+.contactos {font-size: 60px; color:  rgb(75, 192, 196)}
+
+@media only screen and (min-device-width: 768px){
+    .col-md-4 { width:100%;
+    }
+}
+
+@media only screen and (min-device-width: 480px) {
+    .botonera li a{ font-size: 30px;
+                    }
+}
+
+@media only screen and (min-device-width: 768px) {
+    .botonera li a{ font-size: 40px;
+                    padding: 0 20px;
+                    }
+    .letra-grande { font-size: 45px;}
+
+    .img-logo{width:auto;
+        height:70px}
+
+    .logo-contacto {height: 200px; width: auto;}    
+
+}
