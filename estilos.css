@@ -97,7 +97,7 @@ h6{font-size: 12px;}
 
 .sabores, .postres {font-size: 60px; color: rgb(76, 228, 101)}
 
-.contactos {font-size: 50px; color:  rgb(75, 192, 196)}
+.contactos {font-size: 40px; color:  rgb(75, 192, 196)}
 
 @media only screen and (min-device-width: 768px){
     .col-md-4 { width:100%;
