@@ -8,7 +8,7 @@ h2{color:rgb(0, 0, 0)}
 
 .col-md-3 { width: 40%;}
 
-.letra-grande { font-size: 2em; 
+.letra-grande { font-size: 1.75em; 
     font-weight: 800;
 color:rgb(75, 192, 196);}
 .letra-grande:hover{color:rgb(75, 192, 196)}
@@ -88,6 +88,8 @@ figure h2 {margin:0; padding:0}
   justify-content: center;
 }
 
+h6{font-size: 12px;}
+
 .imagen-postre { height: 200px; width: auto;}
 
 
@@ -95,7 +97,7 @@ figure h2 {margin:0; padding:0}
 
 .sabores, .postres {font-size: 60px; color: rgb(76, 228, 101)}
 
-.contactos {font-size: 60px; color:  rgb(75, 192, 196)}
+.contactos {font-size: 50px; color:  rgb(75, 192, 196)}
 
 @media only screen and (min-device-width: 768px){
     .col-md-4 { width:100%;
