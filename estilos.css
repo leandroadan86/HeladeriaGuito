@@ -8,9 +8,16 @@ h2{color:rgb(0, 0, 0)}
 
 .col-md-3 { width: 40%;}
 
+.mw35 {max-width: 35%;}
+.mw45 {max-width: 45%}
+.mw75 {max-width: 75%;}
+
+.dib {margin-inline-start: 0; margin-inline-end: 0;}
+
 .letra-grande { font-size: 1.75em; 
     font-weight: 800;
 color:rgb(75, 192, 196);}
+
 .letra-grande:hover{color:rgb(75, 192, 196)}
 
 .botonera {margin:0;
@@ -23,7 +30,7 @@ color:rgb(75, 192, 196);}
 }
 
 .img-logo{width:auto;
-         height:50px}
+         height:70px}
 
 .row {margin:0;
     text-align: center;
@@ -97,7 +104,7 @@ h6{font-size: 12px;}
 
 .sabores, .postres {font-size: 60px; color: rgb(76, 228, 101)}
 
-.contactos {font-size: 50px; color:  rgb(75, 192, 196)}
+.contactos {font-size: 40px; color:  rgb(75, 192, 196)}
 
 @media only screen and (min-device-width: 768px){
     .col-md-4 { width:100%;
